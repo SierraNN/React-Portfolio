@@ -4,8 +4,6 @@ export default function Navbar() {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
-  
-        <h1 className="is-size-1"> Sierra N Nutt</h1>
 
       <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
