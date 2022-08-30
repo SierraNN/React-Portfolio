@@ -1,0 +1,25 @@
+.background-red {
+    background-color: red;
+  }
+  
+  .background-blue {
+    background-color: blue;
+  }
+
+  body {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+  }
+
+  .a {
+    font-family: "Trirong", sans-serif;
+    font-size: large;
+  }
+  
+  .b {
+    font-family: "Trirong", sans-serif;
+  }
+  
+  .c {
+    font-family: "Trirong", serif;
+  }

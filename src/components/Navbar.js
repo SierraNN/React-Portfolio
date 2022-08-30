@@ -1,30 +1,28 @@
 import React from "react";
+import Image from '../assets/Sierra.png';
+import Image1 from '../assets/linkedin-logo-512x512.png';
+
 
 export default function Navbar() {
   return (
-    <div className="navbar-brand">
-      <figure className="image is-128x128">
-        <img className="is-rounded" src="https://avatars.githubusercontent.com/u/107427250?v=4" />
-      </figure>
-     
-      <nav className="level">
+    <div className="columns">
+    <div className=" column navbar-brand">
+      <nav className="level px-3 mx-3 is-justify-content-space-evenly">
+
         <p className="level-item has-text-centered">
-          <a className="link is-info">Home</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info">About</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <h1 className="is-size-1 has-text-centered has-text-success"> Sierra N Nutt</h1>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info" href="https://github.com/SierraNN">Repositories</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info" href="mailto:sierra.nutt@outlook.com">Contact</a>
+          <figure className="image is-256">
+            <img className="is-rounded" src={Image} />
+          </figure>
         </p>
       </nav>
     </div>
+    <div className="column" />
+    <div className="column" />
+    <div className="column is-justify-content-right mt-6 pt-6 ">
+      
+      <a className="image is-48x48" href="https://www.linkedin.com/in/sierra-nutt-59418291/"><img src={Image1} /></a> 
+    </div>
+  </div>
   );
 }
 

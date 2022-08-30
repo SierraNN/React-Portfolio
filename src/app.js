@@ -5,19 +5,20 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/footer";
-
+import './assets/style.css';
 
 const App = () => {
-    
     return (
-        <main>
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <Footer />
-        </main>
+        <div style={{backgroundColor: 'gray'}}>
+            <main>
+            <Navbar />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+            <Footer />
+            </main>
+        </div>
     );
 }
 
