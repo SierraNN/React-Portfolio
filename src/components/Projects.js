@@ -2,30 +2,37 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div>
-      <div className="column has-text-centered is-size-1 has-text-black font-effect-neon">Completed Projects</div>
-      <div className="columns flex px-3">
-        <div className="column is-align-items-center">
-          <figure className="image is-256" height="200px" width="100px">
-            <a href=""><img className="is-rounded is-flex-direction-row" src="" /></a>
-          </figure>
+    <div className="columns">
+      <div className="column">
+        <div className="container">
+            <a href="https://sierrann.github.io/Challenge-3/"><img className="img1" src="https://images.pexels.com/photos/2882630/pexels-photo-2882630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" /></a>
+
+            <div class="text-block">
+              <h4>Password Generator</h4>
+            </div>
         </div>
-        <div className="column is-align-items-center">
-          <figure className="image is-256 " height="100px" width="100px">
-            <a href=""><img className="is-rounded" src="" /></a>
-          </figure>
-        </div>
-        <div className="column is-align-items-center"> 
-          <figure className="image is-256" height="100px" width="100px">
-            <a href=""><img className="is-rounded" src=""/></a>
-          </figure>
-        </div>
-        <div className="column is-align-items-center"> 
-          <figure className="image is-256" height="100px" width="100px">
-              <a href=""><img className="is-rounded" src="" /></a>
-            </figure>
+        <div className="container">
+
+          <a href="https://get-lit-book-clubs.herokuapp.com/"><img className="img1" src="https://images.pexels.com/photos/1290141/pexels-photo-1290141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" /></a>
+          <div class="text-block">
+            <h4>Get Lit</h4>
         </div>
       </div>
     </div>
+    <div className="column">
+      <div className="container">
+          <a href="https://herble.herokuapp.com/"><img className="img1" src="https://images.pexels.com/photos/351961/pexels-photo-351961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" /></a>
+          <div class="text-block">
+            <h4>Herble</h4>
+          </div>
+      </div>
+      <div className="container">
+          <a href="https://adamwagh512.github.io/your-dog-ate-what/"><img className="img1" src="https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" /></a>
+          <div class="text-block">
+            <h4>Your Dog Ate What ?</h4>
+          </div>
+      </div>
+      </div>
+      </div>
   );
 }

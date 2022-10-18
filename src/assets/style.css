@@ -1,25 +1,93 @@
-.background-red {
-    background-color: red;
-  }
-  
-  .background-blue {
-    background-color: blue;
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  background-color: #E8E1E9;
+  margin: 10px;
+  padding:10px;
+}
+
+.nav{
+  margin-top: -5%;
+  margin-left: -12%;
+  padding: 0;
+  position: fixed;
+}
+
+.box{
+  margin-top: 10%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.img1{
+  margin: auto;
+  padding: auto;
+  border-radius: 25px;
+  height: 300px;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  text-shadow: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.skilllist{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+
+.skills{
+  padding: 0;
+  margin:0;
+  width: 150px;
+}
+
+.column1{
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.column2{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  background-color: transparent;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+  .nav{
+    margin-top: -30%;
+    position: relative;
   }
 
-  body {
-    font-family: "Sofia", sans-serif;
-    font-size: 30px;
+  .boxmobile{
+    margin-top: -30%;
   }
-
-  .a {
-    font-family: "Trirong", sans-serif;
-    font-size: large;
-  }
-  
-  .b {
-    font-family: "Trirong", sans-serif;
-  }
-  
-  .c {
-    font-family: "Trirong", serif;
-  }
+}
