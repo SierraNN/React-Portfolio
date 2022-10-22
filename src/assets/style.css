@@ -15,7 +15,8 @@ body {
 }
 
 .main{
-  background-color: white;opacity:0.8;
+  background-color: white;
+  opacity:0.8;
   margin: 1%;
   padding: 1%;
 }
@@ -32,7 +33,7 @@ body {
   display:grid;
   margin: auto;
   padding: auto;
-  margin-left: 8.8%;
+  margin-left: 8.7%;
   margin-top: 32%;
 }
 
@@ -52,6 +53,11 @@ body {
   padding: auto;
   border-radius: 25px;
   height: 300px;
+}
+
+.image{
+  margin-left: 14%;
+  margin-top: 10%;
 }
 
 /* Blur + Gray Scale */
@@ -118,12 +124,33 @@ h1{
 }
 
 @media only screen and (max-width: 769px) {
-  .nav{
-    margin-top: -30%;
-    position: relative;
+
+  body{
+    background-image: none; 
   }
 
+  .nav{
+    margin-top: 50%;
+    z-index: -1;
+  }
+
+  .navbtn{
+    position: relative; 
+    display: grid;
+    margin-top: 60%;
+    margin-left: 26%;
+    width:auto;
+ }
+
   .boxmobile{
-    margin-top: -30%;
+    margin-top: 0;
+    opacity: .8;
+  }
+
+  .img12{
+    position: fixed;
+    margin-top: -80%;
+
   }
 }
+

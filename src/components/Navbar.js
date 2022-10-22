@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="level px-3 mx-3 is-justify-content-space-evenly">
           <p className="level-item has-text-centered">
             <figure className="image">
-              <img className="is-rounded" src={Image} />
+              <img className="is-rounded img12" src={Image} />
             </figure>
           </p>
         </nav>
