@@ -9,7 +9,7 @@ import './assets/style.css';
 
 const App = () => {
     return (
-        <div className="">
+        <div className="main">
             <main>
                 <div className='columns'>
                     <div className='column is-one-third'>

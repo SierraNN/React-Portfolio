@@ -10,31 +10,34 @@ body {
   background-size:100% auto;
   width: 100%;
   height: auto;
+  font-weight: bold;
   padding:30px;
+}
 
+.main{
+  background-color: white;opacity:0.8;
+  margin: 1%;
+  padding: 1%;
 }
 
 .nav{
-  margin-top: -5%;
-  margin-left: -12%;
+  margin-top: -7%;
+  margin-left: -12.3%;
   padding: 0;
   position: fixed;
 }
+
 .navbtn{
-  margin-top: 110%;
-  position: relative;
-  text-decoration: none;
+  position: fixed;
+  display:grid;
+  margin: auto;
+  padding: auto;
+  margin-left: 8.8%;
+  margin-top: 32%;
 }
 
 .btnnav1{
-  display: flex;
-  justify-content: center;
   width: 200px;
-  margin-left: 28%;
-  margin-top: 1%;
-  border-radius: 10%;
-  opacity: .8;
-  text-decoration: none;
 }
 
 .box{
