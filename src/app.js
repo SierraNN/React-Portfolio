@@ -14,7 +14,12 @@ const App = () => {
                 <div className='columns'>
                     <div className='column is-one-third'>
                         <Navbar />
-                    </div>
+                        <div className='navbtn'>
+                        <button className='btnnav1'><a href="https://www.canva.com/design/DAFOF0s_ULI/4CEUMtWFYJDDWXadrIdGpQ/view?utm_content=DAFOF0s_ULI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Resume</a></button>
+                        <button className='btnnav1' ><a href = "mailto: sierra.nutt@outlook.com">Contact</a></button>
+                        <button className='btnnav1'><a href="https://github.com/SierraNN"  target="_blank">GitHub</a></button>                    
+                        </div>
+                        </div>
                     <div className='column'>
                         <About />
                         <Skills />

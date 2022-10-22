@@ -1,6 +1,7 @@
 import React from "react";
 import Image from '../assets/logo1.png';
 import Image1 from '../assets/linkedin-logo-512x512.png';
+import { Button } from "flowbite-react";
 
 
 export default function Navbar() {
@@ -15,7 +16,7 @@ export default function Navbar() {
           </p>
         </nav>
       </div>
-  </div>
+    </div>
   );
 }
 
