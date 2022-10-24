@@ -6,7 +6,7 @@ export default function Project() {
         <footer className="footer">
         <div className="a content has-text-centered">
             <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Sierra Nutt</a>. The source code is licensed
+            <strong>Bulma</strong> by <a href="https://github.com/SierraNN">Sierra Nutt</a>. The source code is licensed
             <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. 
             </p>
         </div>
