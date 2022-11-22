@@ -55,10 +55,6 @@ body {
   height: 300px;
 }
 
-.image{
-  margin-left: 6em;
-  margin-top: 10%;
-}
 
 /* Blur + Gray Scale */
 .hover10 figure img {
